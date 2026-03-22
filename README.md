@@ -22,11 +22,20 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 -   **API RESTful para Comunicação entre Frontend e Backend**: Interface de programação de aplicações para a interação fluida entre as camadas da aplicação.
 -   **Interface Frontend Interativa (React)**: Uma experiência de usuário rica e responsiva para interagir com o sistema Nexcoin.
 
+---
+
 ### Registro
 ![register](./assets/register.gif)
 
+---
+
 ### Login
 ![login](./assets/login.gif)
+
+---
+
+### Depósito
+![deposit](./assets/deposit.gif)
 
 ## Arquitetura
 
