@@ -26,7 +26,7 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 ![register](./assets/register.gif)
 
 ### Login
-
+![login](./assets/login.gif)
 
 ## Arquitetura
 
