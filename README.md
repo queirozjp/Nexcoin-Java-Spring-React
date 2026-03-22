@@ -126,6 +126,35 @@ Para começar a interagir com o Nexcoin, siga os passos abaixo:
 3.  **Explore as funcionalidades**: Utilize a interface para visualizar seu dashboard, saldo, histórico de transações e a blockchain. Você pode também depositar fundos, criar e enviar transações, e iniciar o processo de mineração de blocos para adicionar novas transações à cadeia.
 
 ---
+## Configuração do Banco de Dados
+
+Esta aplicação utiliza MySQL como seu banco de dados. Siga os passos abaixo para configurá-lo:
+
+### 1. Crie o banco de dados
+
+Execute o seguinte comando SQL para criar o banco de dados `nexcoin`:
+
+```sql
+CREATE DATABASE nexcoin;
+```
+
+### 2. Configure suas credenciais
+
+Atualize o arquivo `application.yml` do seu projeto com as credenciais do seu banco de dados:
+
+```yaml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/nexcoin
+    username: seu_usuario
+    password: sua_senha
+```
+
+### 3. Execute a aplicação
+
+As tabelas do banco de dados serão criadas automaticamente na inicialização da aplicação, utilizando o Hibernate.
+
+---
 ## Execução do Projeto
 
 ### Backend (Spring Boot)
@@ -136,3 +165,5 @@ Executar a aplicação diretamente pela IDE (IntelliJ):
 cd nexcoin-frontend  
 npm install  
 npm run dev  
+
+
