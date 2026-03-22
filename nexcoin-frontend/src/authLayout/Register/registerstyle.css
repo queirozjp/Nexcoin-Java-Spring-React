@@ -1,0 +1,53 @@
+.private-key {
+  margin-top: 12px;
+  padding: 12px;
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-family: monospace;
+  word-break: break-all;
+
+}
+
+.private-key-box{
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.private-key-title{
+  font-size: 14px;
+  color: #ffcc66;
+  font-weight: 600;
+}
+
+.private-key{
+  background: #0f1115;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 13px;
+  color: #9be9a8;
+  word-break: break-all;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.copy-button{
+  align-self: flex-end;
+  background: #ff5a00;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.copy-button:hover{
+  background:#ff7a18;
+}

@@ -1,0 +1,94 @@
+.container-home{
+    background: linear-gradient(135deg, #1e1b2e, #0f1a3a, #0a1f44);
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.button-container{
+    display: flex;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.login-button {
+  background: linear-gradient(135deg, #F28C38, #E96A2C);
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(242, 140, 56, 0.4);
+}
+
+.register-button {
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid #3A4357;
+  color: #D1D5DB;
+  border-radius: 10px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.register-button:hover {
+  background: #1F2937;
+  border-color: #F28C38;
+  color: white;
+}
+
+.title{
+    color: #fff;
+    font-size: 32px;
+}
+
+.subtitle{
+    color: #fff;
+    font-size: 18px;
+}
+
+.card-home{
+  background: #263247;
+  border: 1px solid #f28c38;
+  border-radius: 22px;
+  padding: 40px;
+  width: 320px;
+  height: 320px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  transition: all 0.3s ease;
+}
+
+.card-home:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #9CA3AF;
+  line-height: 1.6;
+}

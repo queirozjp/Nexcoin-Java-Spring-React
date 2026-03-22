@@ -1,0 +1,23 @@
+.deposit-p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 75%;
+}
+
+.deposit-p2 {
+  color: #fff;
+  opacity: 75%;
+  font-size: 11px;
+}
+
+.deposit-small-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px;
+    border-radius: 10px;
+
+    background-color: #0F1A34;
+}
