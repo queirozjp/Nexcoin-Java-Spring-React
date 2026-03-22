@@ -9,6 +9,7 @@ O Nexcoin é um projeto de aplicação full-stack que simula a infraestrutura ce
 O Nexcoin oferece as seguintes funcionalidades essenciais:
 
 -   **Registro e Autenticação de Usuários**: Sistema completo de gerenciamento de usuários.
+  ![home](./assets/home.png)
 -   **Criação de Carteiras com Criptografia de Chaves Pública/Privada**: Geração segura de pares de chaves para cada usuário.
 -   **Criação de Transações com Validação (ECDSA)**: Processamento e validação de transações utilizando o algoritmo de Assinatura Digital de Curva Elíptica.
 -   **Criação de Transações de Depósito para a Própria Carteira**: Funcionalidade para adicionar fundos à carteira do usuário.
