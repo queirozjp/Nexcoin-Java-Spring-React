@@ -4,12 +4,13 @@
 
 O Nexcoin é um projeto de aplicação full-stack que simula a infraestrutura central de uma criptomoeda inspirada no Bitcoin. O sistema implementa conceitos fundamentais de uma blockchain real, como transações, assinaturas digitais de transações, hashing de blocos e mineração. Este projeto foi desenvolvido utilizando **Java com Spring Boot** para o backend e **React** para o frontend, oferecendo uma solução robusta e interativa para explorar os princípios das criptomoedas.
 
+![home](./assets/home.png)
+
 ## Funcionalidades
 
 O Nexcoin oferece as seguintes funcionalidades essenciais:
 
 -   **Registro e Autenticação de Usuários**: Sistema completo de gerenciamento de usuários.
-  ![home](./assets/home.png)
 -   **Criação de Carteiras com Criptografia de Chaves Pública/Privada**: Geração segura de pares de chaves para cada usuário.
 -   **Criação de Transações com Validação (ECDSA)**: Processamento e validação de transações utilizando o algoritmo de Assinatura Digital de Curva Elíptica.
 -   **Criação de Transações de Depósito para a Própria Carteira**: Funcionalidade para adicionar fundos à carteira do usuário.
@@ -20,6 +21,12 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 -   **Monitoramento do Histórico de Blocos da Blockchain**: Acompanhamento da evolução da blockchain, exibindo todos os blocos minerados.
 -   **API RESTful para Comunicação entre Frontend e Backend**: Interface de programação de aplicações para a interação fluida entre as camadas da aplicação.
 -   **Interface Frontend Interativa (React)**: Uma experiência de usuário rica e responsiva para interagir com o sistema Nexcoin.
+
+### Registro
+![register](./assets/register.gif)
+
+### Login
+
 
 ## Arquitetura
 
