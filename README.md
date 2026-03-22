@@ -50,6 +50,11 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 #### Saldo depois de minerar bloco
 ![balanceaftermine](./assets/balanceaftermine.png)
 
+---
+
+### Visualizar Blockchain
+![blockchain](./assets/blockchain.gif)
+
 ## Arquitetura
 
 A arquitetura do Nexcoin é dividida em duas camadas principais:
