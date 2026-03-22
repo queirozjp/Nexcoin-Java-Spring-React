@@ -34,6 +34,17 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 
 ---
 
+### Dashboard 
+![dashboard](./assets/dashboard.png)
+---
+### Balance
+![balance](./assets/balance.png)
+---
+### Wallet
+![wallet](./assets/wallet.png)
+
+---
+
 ### Depósito
 ![deposit](./assets/deposit.gif)
 
