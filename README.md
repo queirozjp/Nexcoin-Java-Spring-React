@@ -37,6 +37,11 @@ O Nexcoin oferece as seguintes funcionalidades essenciais:
 ### Depósito
 ![deposit](./assets/deposit.gif)
 
+---
+
+### Nova Transação
+![transaction](./assets/transaction.gif)
+
 ## Arquitetura
 
 A arquitetura do Nexcoin é dividida em duas camadas principais:
